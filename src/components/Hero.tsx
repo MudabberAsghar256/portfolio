@@ -64,7 +64,7 @@ export default function Hero() {
             View My Works
           </button>
           <button className="px-8 py-4 border border-black/10 text-slate-900 rounded-full font-bold uppercase tracking-wider text-sm hover:bg-slate-50 transition-colors">
-            Let's Talk
+            Lets Talk
           </button>
         </motion.div>
       </div>

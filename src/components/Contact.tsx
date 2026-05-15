@@ -17,7 +17,7 @@ export default function Contact() {
           </motion.h2>
           <p className="text-slate-500 text-xl max-w-2xl mx-auto">
             Got a project in mind? Or just want to say hi? My inbox is always open.
-            Let's build something extraordinary together.
+            Lets build something extraordinary together.
           </p>
         </div>
 
