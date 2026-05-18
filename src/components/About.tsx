@@ -3,9 +3,9 @@ import { motion } from "motion/react";
 
 export default function About() {
   return (
-    <section id="about" className="py-32 px-6 bg-brand-surface relative overflow-hidden">
+    <section id="about" className="md:py-32 px-6 bg-brand-surface relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-24 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -41,13 +41,13 @@ export default function About() {
               things work on the web, and it has evolved into a career of building
               high-performance applications that users love.
             </p>
-            <p className="text-slate-600 text-lg leading-relaxed mb-8">
+            <p className="text-slate-600 text-lg leading-relaxed mb-3 md:mb-8">
               I specialize in React, Next.js, and modern CSS frameworks like Tailwind.
               My design philosophy is rooted in minimalism and functionality, ensuring
               that every component I build serves a clear purpose while looking beautiful.
             </p>
 
-            <div className="grid grid-cols-2 gap-8 pt-6 border-t border-slate-200">
+            <div className="grid grid-cols-2 gap-8 pt-3 md:pt-6 border-t border-slate-200">
               <div>
                 <span className="block text-slate-900 font-bold mb-1 underline decoration-brand-primary underline-offset-4 tracking-tighter">Location</span>
                 <span className="text-slate-500">Mars, Solar System</span>

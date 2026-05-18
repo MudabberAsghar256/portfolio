@@ -23,12 +23,12 @@ export default function Footer() {
   ];
 
   return (
-    <footer className="relative bg-brand-bg pt-20 pb-4 px-6 overflow-hidden border-t border-slate-100">
+    <footer className="relative bg-brand-bg mb-7 pt-10 md:pt-20 pb-4 px-6 overflow-hidden border-t border-slate-100">
       {/* Decorative Gradient */}
       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-brand-primary/5 blur-[120px] rounded-full pointer-events-none -z-10" />
 
       <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-12">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 md:gap-16 mb-12">
           {/* Brand & CTA Section */}
           <div className="lg:col-span-5 space-y-6">
             <motion.div
@@ -114,7 +114,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-6">
+        <div className="md:pt-8 pt-4 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-slate-400 text-[10px] font-mono uppercase tracking-[0.2em] text-center md:text-left">
             &copy; {new Date().getFullYear()} Handcrafted with Passion by Mudabber Khan
           </div>

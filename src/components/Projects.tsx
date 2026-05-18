@@ -32,9 +32,9 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-32 px-6">
+    <section id="projects" className="md:py-32 py-10 px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+        <div className="flex flex-col md:flex-row justify-between items-end mb-8 md:mb-16 gap-8">
           <div>
             <span className="text-brand-secondary font-mono text-sm uppercase tracking-[0.4em] block mb-4">Portfolio</span>
             <h2 className="text-6xl md:text-8xl font-display font-black leading-[0.9] uppercase tracking-tighter">
@@ -88,7 +88,7 @@ export default function Projects() {
         </div>
 
         <motion.div
-          className="mt-20 flex justify-center"
+          className="md:mt-20 mt-10 flex justify-center"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}

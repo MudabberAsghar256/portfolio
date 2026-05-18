@@ -14,8 +14,8 @@ export default function Skills() {
   const marqueeText = ["CREATIVITY", "PRECISION", "CODE", "DESIGN", "ANIMATION", "STRATEGY"];
 
   return (
-    <section id="skills" className="py-32 bg-brand-bg">
-      <div className="mb-20 overflow-hidden border-y border-slate-100 py-6">
+    <section id="skills" className="md:py-32 py-10 bg-brand-bg">
+      <div className="md:mb-20 mb-10 overflow-hidden border-y border-slate-100 py-6">
         <motion.div
           animate={{ x: [0, -1000] }}
           transition={{ duration: 20, repeat: Infinity, ease: "linear" }}

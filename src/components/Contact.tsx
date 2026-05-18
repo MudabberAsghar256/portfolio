@@ -4,9 +4,9 @@ import { motion } from "motion/react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-32 px-6 bg-brand-surface">
+    <section id="contact" className="md:py-32 py-10 px-6 bg-brand-surface">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-20">
+        <div className="text-center mb-10 md:mb-20">
           <motion.h2
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
@@ -21,7 +21,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16">
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
