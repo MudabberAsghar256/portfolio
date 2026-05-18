@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 export default function Hero() {
   return (
-    <section className="mb-15 pt-30 md:pt-40 relative  px-6 flex justify-center overflow-hidden">
+    <section className=" pt-30 md:pt-40 relative  px-6 flex justify-center overflow-hidden">
       <div className="max-w-7xl mx-auto w-full">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -58,7 +58,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.7, duration: 0.6 }}
-          className="flex flex-wrap gap-6"
+          className="flex flex-wrap gap-6 mb-7 md:mb-15"
         >
           <button className="px-8 py-4 bg-brand-primary text-white rounded-full font-bold uppercase tracking-wider text-sm hover:opacity-90 transition-opacity glow-primary border border-white/20">
             View My Works
