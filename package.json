@@ -10,6 +10,7 @@
     "clean": "node -e \"const fs=require('fs');['dist','.next','out'].forEach(p=>{try{fs.rmSync(p,{recursive:true,force:true})}catch{}})\""
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "lucide-react": "^0.546.0",
     "motion": "^12.23.24",
     "next": "^15.3.2",
