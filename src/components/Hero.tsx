@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen pt-32  px-6 flex justify-center overflow-hidden">
+    <section className="min-h-screen pt-32 relative  px-6 flex justify-center overflow-hidden">
       <div className="max-w-7xl mx-auto w-full">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
