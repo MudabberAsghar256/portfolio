@@ -74,25 +74,21 @@ export default function Contact() {
               </h3>
 
               <div className="space-y-6">
-
                 <a href="mailto:MudabberKhan@gmail.com">
                   <div className="flex items-center gap-4 group cursor-pointer">
-                    <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center group-hover:bg-gradient-main group-hover:glow-primary transition-all text-slate-600 group-hover:text-white">
+                    <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center group-hover:bg-gradient-main group-hover:glow-primary transition-all text-slate-600 group-hover:text-blue-400">
                       <Mail size={20} />
                     </div>
-
-                    <span className="text-slate-600 group-hover:text-brand-primary transition-colors">
+                    <span className="text-slate-600 group-hover:text-blue-400 transition-colors">
                       MudabberKhan@gmail.com
                     </span>
                   </div>
                 </a>
-
-                <div className="flex items-center gap-4 group cursor-pointer">
-                  <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center group-hover:bg-gradient-main group-hover:glow-secondary transition-all text-slate-600 group-hover:text-white">
+                <div className="flex items-center mt-3 gap-4 group cursor-pointer">
+                  <div className="w-12 h-12 bg-slate-50 rounded-2xl flex items-center justify-center group-hover:bg-gradient-main group-hover:glow-secondary transition-all text-slate-600 group-hover:text-blue-400">
                     <Twitter size={20} />
                   </div>
-
-                  <span className="text-slate-600 group-hover:text-brand-secondary transition-colors">
+                  <span className="text-slate-600 group-hover:text-blue-400 transition-colors">
                     <a
                       href="https://x.com/AsgharAs45206"
                       target="_blank"
@@ -106,7 +102,9 @@ export default function Contact() {
               </div>
 
               <div className="mt-12">
-                <h4 className="text-sm font-mono uppercase tracking-widest text-slate-400 mb-6">
+                <h4 className="text-sm font-bold font-mono uppercase tracking-widest mb-6 
+                   bg-gradient-to-r from-pink-500 via-purple-500 via-indigo-500 to-pink-500 
+                    bg-clip-text text-transparent bg-[length:200%_200%] animate-gradient">
                   Social Follow
                 </h4>
 
