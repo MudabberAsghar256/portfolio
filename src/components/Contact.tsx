@@ -17,10 +17,8 @@ const socialLinks = [
 
 ];
 export default function Contact() {
-
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
     emailjs
     emailjs.sendForm(
       "service_11tnfts",
@@ -76,7 +74,6 @@ export default function Contact() {
             >
               SAY
             </motion.span>{" "}
-
             <motion.span
               initial={{
                 opacity: 0,
@@ -105,7 +102,6 @@ export default function Contact() {
             >
               HELLO
             </motion.span>
-
             <motion.span
               animate={{
                 scale: [1, 1.8, 1],
@@ -121,7 +117,6 @@ export default function Contact() {
               .
             </motion.span>
           </motion.h2>
-
           <motion.p
             initial={{
               opacity: 0,
@@ -144,7 +139,6 @@ export default function Contact() {
             }}
             className="relative text-slate-500 text-xl max-w-2xl mx-auto leading-relaxed perspective-[1200px]"
           >
-
             {/* Aurora Glow Behind Text */}
             <motion.div
               animate={{
@@ -159,7 +153,6 @@ export default function Contact() {
               className="absolute inset-0 blur-3xl opacity-20
     bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500"
             />
-
             {/* Floating Word Animation */}
             {[
               "Got",
@@ -210,9 +203,7 @@ export default function Contact() {
                 {word}
               </motion.span>
             ))}
-
             <br />
-
             {/* Second Line */}
             {"Lets build something extraordinary together."
               .split(" ")
@@ -259,9 +250,7 @@ export default function Contact() {
             />
           </motion.p>
         </div>
-
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 perspective-[2000px]">
-
           {/* LEFT CARD */}
           <motion.div
             initial={{
